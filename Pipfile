@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+
+[dev-packages]
+jedi = "*"
+autopep8 = "*"
+pylint = "*"
+pynvim = "*"
+
+[requires]
+python_version = "3.9"
